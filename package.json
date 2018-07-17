@@ -1,0 +1,32 @@
+{
+  "name": "ecobot",
+  "version": "1.0.0",
+  "description": "Ecolab Microsoft Azure Bot Service MVP with ServiceNow integration",
+  "main": "app.js",
+  "dependencies": {
+    "assert-plus": "^1.0.0",
+    "axios": "^0.17.1",
+    "botbuilder": "^3.15.0",
+    "botbuilder-ai": "^4.0.0-preview1.2",
+    "botbuilder-cognitiveservices": "^1.2.0",
+    "botbuilder-azure": "^3.1.0",
+    "botbuilder-teams": "^0.1.7",
+    "dotenv": "^4.0.0",
+    "restify": "^6.4.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "What can you do?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N/A.git"
+  },
+  "author": "Brad Stevens, Senior Consulting Engineer CDW LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N/A/issues"
+  },
+  "homepage": "https://github.com/N/A#readme"
+}

@@ -1,0 +1,1566 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "57da70a3-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:24-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-06-22T17:40:24.362Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "default-user",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "57da70a4-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:24-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2018-06-22T17:40:24.362Z",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "message",
+    "text": "hi",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:27.581Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.0"
+    },
+    "entities": [
+      {
+        "type": "ClientCapabilities",
+        "requiresBotState": true,
+        "supportsTts": true,
+        "supportsListening": true
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "59c59ed0-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:27-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689228208,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"hi\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228224,
+        "level": "info",
+        "msg": "Session.beginDialog(/)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228476,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 0 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "59c59ed0-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:28-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5a6e61f1-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "59c59ed0-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:28.687Z"
+  },
+  {
+    "type": "message",
+    "text": "Hi! I'm EcoBot! I'm a bot that can help you manage incidents in ServiceNow! Go ahead! Ask me a question! Try saying something like: 'What can you do?'",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:29-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "5abd6c51-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "59c59ed0-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:29.205Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689228961,
+        "level": "info",
+        "msg": "IntentDialog.matches(greeting)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228977,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228977,
+        "level": "info",
+        "msg": "Session.beginDialog(/greeting)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228977,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228993,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689228993,
+        "level": "info",
+        "msg": "Session.replaceDialog(/)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689229268,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "59c59ed0-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:29-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5ad78401-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "59c59ed0-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:29.376Z"
+  },
+  {
+    "type": "message",
+    "text": "what can you do?",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:33.648Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.2"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "5d635f00-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:33-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "message",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.thumbnail",
+        "content": {
+          "title": "EcoBot",
+          "text": "Here's a few things I can do:",
+          "buttons": [
+            {
+              "type": "imBack",
+              "value": "Get Incidents",
+              "title": "View recently created ServiceNow Incidents"
+            },
+            {
+              "type": "imBack",
+              "value": "Create a new ServiceNow Incident",
+              "title": "Create a new ServiceNow Incident"
+            },
+            {
+              "type": "imBack",
+              "value": "Update Incident",
+              "title": "Add comments to a ServiceNow Incident"
+            },
+            {
+              "type": "imBack",
+              "value": "Resolve Incident",
+              "title": "Resolve your ServiceNow Incident"
+            }
+          ]
+        }
+      }
+    ],
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:34-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "5de6e6e0-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "5d635f00-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:34.510Z"
+  },
+  {
+    "type": "endOfConversation",
+    "code": "completedSuccessfully",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:34-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5dfb5941-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "5d635f00-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:34.644Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689234159,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"what can you do?\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234536,
+        "level": "info",
+        "msg": "Library(\"*\").findRoutes() explanation:\n\tActiveDialog(0.8903271)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234536,
+        "level": "info",
+        "msg": "IntentDialog.matches(serviceNowMenu)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234552,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234552,
+        "level": "info",
+        "msg": "Session.beginDialog(/serviceNowMenu)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234552,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234567,
+        "level": "info",
+        "msg": "Session.endConversation()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689234567,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "5d635f00-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:34-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5e110421-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "5d635f00-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:34.786Z"
+  },
+  {
+    "type": "message",
+    "text": "Get Incidents",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:36.468Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.4"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "5f11ab40-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:36-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689236964,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Get Incidents\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689236980,
+        "level": "info",
+        "msg": "Session.beginDialog(/)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237247,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 0 message(s)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237262,
+        "level": "info",
+        "msg": "IntentDialog.matches(getIncident)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237262,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237278,
+        "level": "info",
+        "msg": "Session.beginDialog(/getIncident)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237278,
+        "level": "info",
+        "msg": "waterfall() step 1 of 4",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237294,
+        "level": "info",
+        "msg": "Session.beginDialog(/login)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237294,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237294,
+        "level": "info",
+        "msg": "Session.replaceDialog(/specifyCredentials)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237309,
+        "level": "info",
+        "msg": "waterfall() step 1 of 3",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237325,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-text)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689237325,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "5f11ab40-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:37-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5f8c8090-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "5f11ab40-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:37.273Z"
+  },
+  {
+    "text": "What is the first name you use to log in to Service Now?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:37-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5fcf55f1-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "5f11ab40-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:37.711Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689237762,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "5f11ab40-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:37-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "5fe54ef0-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "5f11ab40-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:37.855Z"
+  },
+  {
+    "type": "message",
+    "text": "Randall",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:40.712Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.6"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "61994080-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:40-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "text": "Thanks! And your last name?",
+    "inputHint": "expectingInput",
+    "type": "message",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:41-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "620c4da0-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "61994080-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:41.466Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689241221,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Randall\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241237,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.5)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241237,
+        "level": "info",
+        "msg": "Prompt.returning(Randall)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241253,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241253,
+        "level": "info",
+        "msg": "waterfall() step 2 of 3",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241253,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-text)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241268,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689241525,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "61994080-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:41-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "62215c41-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "61994080-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:41.604Z"
+  },
+  {
+    "type": "message",
+    "text": "Batz",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:42.963Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.8"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:42-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689243468,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"Batz\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689243487,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.5)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689243487,
+        "level": "info",
+        "msg": "Prompt.returning(Batz)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689243499,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689243499,
+        "level": "info",
+        "msg": "waterfall() step 3 of 3",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689243788,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 0 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:43-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "63663851-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:43.733Z"
+  },
+  {
+    "type": "message",
+    "text": "Thanks, Randall!",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:44-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "63dacc10-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:44.497Z"
+  },
+  {
+    "type": "message",
+    "text": "I understand that you want me to find your incidents in ServiceNow.",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:44-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "63efdab0-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:44.635Z"
+  },
+  {
+    "type": "message",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Yes, show my most recently opened incidents.",
+              "value": "Yes, show my most recently opened incidents."
+            },
+            {
+              "type": "imBack",
+              "title": "No, not now.",
+              "value": "No, not now."
+            }
+          ]
+        }
+      }
+    ],
+    "text": "Did I understand you correctly?",
+    "inputHint": "expectingInput",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:44-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "64049b30-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:44.771Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689244238,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689244238,
+        "level": "info",
+        "msg": "Session.endDialog()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689244254,
+        "level": "info",
+        "msg": "waterfall() step 2 of 4",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689244269,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689244269,
+        "level": "info",
+        "msg": "Session.beginDialog(BotBuilder:prompt-choice)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689244285,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689244551,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 3 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:44-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "641982c1-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "62f0ba30-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:44.908Z"
+  },
+  {
+    "type": "message",
+    "text": "yes",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:47.159Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.10"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "6570fc70-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:47-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "message",
+    "text": "Here's what I found:",
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:48-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "ignoringInput",
+    "id": "65fe9670-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "6570fc70-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:48.087Z"
+  },
+  {
+    "type": "message",
+    "attachmentLayout": "list",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "'Owner' is listed on the Edit Article 2 times on the form",
+          "subtitle": "Created 2018-05-14 20:14:14",
+          "text": "INC2089268",
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://ecolabstage.service-now.com/sp?sys_id=069a1186db06d784d787a6e51b96191c&view=sp&id=ticket&table=incident#home",
+              "title": "Review Incident"
+            }
+          ]
+        }
+      },
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "SC: Ecolab Network Folder/Server/Active Directory Group: This request Ecolab Network Folder/Server/Active Directory Group shows the user that it is approved eve",
+          "subtitle": "Created 2018-04-04 20:51:33",
+          "text": "INC2041472",
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://ecolabstage.service-now.com/sp?sys_id=7283ab49db919308a7ddf3551d961923&view=sp&id=ticket&table=incident#home",
+              "title": "Review Incident"
+            }
+          ]
+        }
+      }
+    ],
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:40:48-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "66126c91-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "6570fc70-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:48.217Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689247683,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"yes\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247699,
+        "level": "info",
+        "msg": "Library(\"BotBuilder\").findRoutes() explanation:\n\tActiveDialog(0.4857142857142857)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247699,
+        "level": "info",
+        "msg": "Prompt.returning([object Object])",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247699,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247715,
+        "level": "info",
+        "msg": "waterfall() step 3 of 4",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247715,
+        "level": "info",
+        "msg": "waterfall() step 4 of 4",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247859,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247875,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247875,
+        "level": "info",
+        "msg": "Session.endDialog()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689247875,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689248153,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 2 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "6570fc70-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:40:48-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "6627a241-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "6570fc70-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:40:48.356Z"
+  },
+  {
+    "type": "message",
+    "text": "what is your phone number?",
+    "from": {
+      "id": "default-user",
+      "name": "User"
+    },
+    "locale": "en-US",
+    "textFormat": "plain",
+    "timestamp": "2018-06-22T17:40:59.832Z",
+    "channelData": {
+      "clientActivityId": "1529689224339.12649698093775252.12"
+    },
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "id": "6cfebb80-7643-11e8-890a-91c2c0d77f1b",
+    "localTimestamp": "2018-06-22T10:40:59-07:00",
+    "recipient": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://ecdccf13.ngrok.io"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689260332,
+        "level": "info",
+        "msg": "UniversalBot(\"*\") routing \"what is your phone number?\" from \"emulator\"",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260332,
+        "level": "info",
+        "msg": "Session.beginDialog(/)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260604,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 0 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "6cfebb80-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:41:00-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "6d69b251-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "6cfebb80-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:41:00.533Z"
+  },
+  {
+    "type": "message",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "You can contact us at +1 651-795-4357",
+          "subtitle": " You can find local contact information the portal by\nclicking the learn more button below.",
+          "images": [
+            {
+              "url": "https://eclcdwbotwabsa.blob.core.windows.net/images/Ecolab-IT-Help-Center.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "openUrl",
+              "value": "https://ecolabstage.service-now.com/sp?id=kb_article&sys_id=4bb26c440178dd807f3a82d840bf23d3",
+              "title": "Learn More"
+            }
+          ]
+        }
+      }
+    ],
+    "locale": "en-US",
+    "localTimestamp": "2018-06-22T10:41:01-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "inputHint": "acceptingInput",
+    "id": "6db27b21-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "6cfebb80-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:41:01.010Z"
+  },
+  {
+    "type": "event",
+    "name": "debug",
+    "value": [
+      {
+        "type": "log",
+        "timestamp": 1529689260682,
+        "level": "info",
+        "msg": "IntentDialog.matches(qna)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260698,
+        "level": "info",
+        "msg": "waterfall() step 1 of 1",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260698,
+        "level": "info",
+        "msg": "Session.beginDialog(basicQnAMakerDialog)",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260807,
+        "level": "info",
+        "msg": "Session.send()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260807,
+        "level": "info",
+        "msg": "Session.endDialog()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689260823,
+        "level": "info",
+        "msg": "Session.endDialogWithResult()",
+        "args": []
+      },
+      {
+        "type": "log",
+        "timestamp": 1529689261077,
+        "level": "info",
+        "msg": "Session.sendBatch() sending 1 message(s)",
+        "args": []
+      }
+    ],
+    "relatesTo": {
+      "id": "6cfebb80-7643-11e8-890a-91c2c0d77f1b",
+      "channelId": "emulator",
+      "user": {
+        "id": "default-user",
+        "name": "User"
+      },
+      "conversation": {
+        "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+      },
+      "bot": {
+        "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+        "name": "Bot",
+        "role": "bot"
+      },
+      "serviceUrl": "https://ecdccf13.ngrok.io"
+    },
+    "text": "Debug Event",
+    "localTimestamp": "2018-06-22T10:41:01-07:00",
+    "from": {
+      "id": "56f20c70-7643-11e8-890a-91c2c0d77f1b",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "recipient": {
+      "id": "default-user",
+      "role": "user"
+    },
+    "id": "6dc73ba1-7643-11e8-890a-91c2c0d77f1b",
+    "replyToId": "6cfebb80-7643-11e8-890a-91c2c0d77f1b",
+    "channelId": "emulator",
+    "conversation": {
+      "id": "57d6ee30-7643-11e8-bc64-0bdfb9b00858|livechat"
+    },
+    "timestamp": "2018-06-22T17:41:01.146Z"
+  }
+]
